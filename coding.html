@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <title>CM: Coding Page</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+  overflow: hidden;
+  background-color: lightgray;
+  border: 10px solid rgb(120, 120, 120);
+  opacity: 90%;
+}
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  background: rgb(70, 70, 255);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  border: 2px solid rgb(30, 30, 175);
+  margin-left: 8px;
+}
+#navbar a:hover {
+    color: black;
+    background: rgb(230, 60, 120);
+    border: 2px solid black;
+    transition: .3s;
+}
+#navbar a.active {
+  background-color: rgb(230, 60, 120);
+  color: white;
+  border: 2px solid rgb(160, 60, 100);
+}
+#navbar a.active:hover {
+  background-color: blue;
+  color: white;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+
+</head>
+<body>
+<div class="header">
+    <header>
+    <img src="logo2.png" alt="" width="750" height="150">
+    </header>
+</div>
+
+<div id="navbar">
+  <nav>
+    <ul>
+        <li><a href=index.html>Home</a></li>
+        <li><a href=posters.html>Posters</a></li>
+        <li><a href=typography.html>Typography</a></li>
+        <li><a href=ux.html>UX</a></li>
+        <li><a href=reflection.html>Reflection</a></li>
+    </ul>
+</nav>
+</div>
+
+<section class = "typographypage-section">
+    <div class="codingheader"> <!-- header i have modified to be the pink box-->
+        <h1>Coding Worksheets Submission</h1>
+    </div>
+    
+    <div class="codingtextbox">
+        <div class = "codetextbox">
+          <h1>Coding Tasks Week: <span>1 / 2</span></h1>
+          <img style="border: 5px solid rgb(53, 8, 99)" src="codingimages/pizzapage.png" alt="Pizza Page" width="500" height="325"/>
+          <img style="border: 5px solid rgb(53, 8, 99)" src="codingimages/cakepage.png" alt="Cake Page" width="500" height="325"/>
+          <p>These two weeks of coding tasks introduced me to the very basics of HTML, and I've used what I learnt to create this website. These two worksheets covered headers and text, boxes and borders, lists and elements, inserting images, hyperlinks, font varities, etc. </p>
+          <p></p>
+          <nav>
+            <ul>
+                <li><a href=.html>Click here to view my submitted worksheet.</a></li>
+                <li><a href=.html>Click here to view my GitHub respository.</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class = "codetextbox">
+            <h1>Coding Tasks Week: <span>3 / 4 / 5</span></h1>
+            <img style="border: 5px solid rgb(53, 8, 99)" src="codingimages/ss1.png" alt="Coding Page" width="500" height="325"/>
+            <img style="border: 5px solid rgb(53, 8, 99)" src="codingimages/ss2.png" alt="Coding Page" width="500" height="325"/>
+            <p>I used numerous elements of what I learnt in these three worksheets when creating this webiste. For instance the buttons on the navigation bar. When they are hovered over, a smooth animation will qucikly take place, changing their apperance from blue to pink, and slightly increasing their size allowing for an improved user experience.</p>
+            <p>I found the final task to be interesting as I learnt how to import text from the web which isn't already specified in HTML. As we can see in the second image, I was using a unique font for the header called Zen Dots which gave my website a more custom design than what the majority of standard websites use, and I believe this is a crucial element in creating a unique website. Ultimtely I decided I wanted to use that font on this particular page for the website, which is why the header of this section looks very unique. </p>
+            <nav>
+                <ul>
+                    <li><a href=.html>Click here to view my submitted worksheet.</a></li>
+                    <li><a href=.html>Click here to view my GitHub respository.</a></li>
+                </ul>
+            </nav>
+          </div>
+
+          <nav>
+            <ul>
+                <li><a href=index.html>Click here to return to the Homepage.</a></li>
+            </ul>
+        </nav>
+
+    <footer>
+        <p>This website was created by Carter Manahan</p>
+        <p>Contact Information: carter2.beaumontmanahan@live.uwe.ac.uk</p>
+    </footer>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>

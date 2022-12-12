@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM: Reflection Page</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: lightgray;
+  border: 10px solid rgb(120, 120, 120);
+  opacity: 90%;
+}
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  background: rgb(70, 70, 255);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  border: 2px solid rgb(30, 30, 175);
+  margin-left: 8px;
+}
+#navbar a:hover {
+    color: black;
+    background: rgb(230, 60, 120);
+    border: 2px solid black;
+    transition: .3s;
+}
+#navbar a.active {
+  background-color: rgb(230, 60, 120);
+  color: white;
+  border: 2px solid rgb(160, 60, 100);
+}
+#navbar a.active:hover {
+  background-color: blue;
+  color: white;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+
+</head>
+<body>
+<div class="header">
+    <header>
+    <img src="logo2.png" alt="" width="750" height="150">
+    </header>
+</div>
+
+<div id="navbar">
+  <nav>
+    <ul>
+        <li><a href=index.html>Home</a></li>
+        <li><a href=coding.html>Coding</a></li>
+        <li><a href=posters.html>Posters</a></li>
+        <li><a href=typography.html>Typography</a></li>
+        <li><a href=ux.html>ux</a></li>
+    </ul>
+</nav>
+</div>
+
+<section class = "reflectionpage-section">
+    <div class="reflectionheader"> <!-- header i have modified to be the pink box-->
+        <h1>Reflection Submission</h1>
+    </div>
+  
+    <div class="reflectiontextbox">
+        <p>This is the section of my GWDS site where I reflect on the process of creating this page, and the coursework. I will discuss what I found easy, what I found difficult, etc.</p>
+        <img style="border: 4px solid black" src="uxhome.jpeg" alt="Homepage Design" width="410" height="590"/>
+        <img style="border: 4px solid black" src="uxcarp.jpeg" alt="Carp Poster Design" width="410" height="590"/>
+        <img style="border: 4px solid black" src="uxtypog.jpeg" alt="Typography Design" width="410" height="590"/>
+        <div class="uxtextbox">
+          <img style="border: 4px solid black" src="" alt="insert" width="410" height="590"/>
+          <img style="border: 4px solid black" src="" alt="insert photo" width="410" height="590"/>
+          <img style="border: 4px solid black" src="" alt="Insert photo" width="410" height="590"/>
+        </div>
+      </div>
+        <nav>
+          <ul>
+            <li><a href=index.html>Click here to return to the homepage page.</a></li>
+          </ul>
+        </nav>
+    </div>
+      
+  </section>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>

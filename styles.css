@@ -1,0 +1,415 @@
+body {
+    background-image: url("a93.png");
+    margin: auto;
+    width: auto;
+    text-align: center;
+    padding-top: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+head {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 6px solid black;
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+    width: auto;
+}
+header {
+    border: 10px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+.navigation-section {
+    background-color: red;
+    border: 5px solid rgb(160, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+nav ul li{ /* CONTENTS OF NAV BUTTONS */
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px 1px;
+    padding-top: 9px;
+}
+nav ul li a{ /* CONTENTS OF NAV BUTTONS */
+    border: none;
+    background: rgb(70, 70, 255);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid rgb(30, 30, 175);
+    margin-left: 8px;
+}
+nav ul li a:hover{ /* CONTENTS OF WHEN MOUSE IS HOVERED OVER NAV BUTTONS */
+    color: black;
+    background: rgb(230, 60, 120);
+    border: 2px solid black;
+    transition: .3s; /* amount of time it takes for the effect to take place */
+    transform: scale(1.25);
+}
+.homepage-section {
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1310px;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+    border: 5px solid rgb(120, 120, 120);
+    margin-top: 50px;
+}
+.homepageheader {
+    border: 4px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding-top: center; 
+    font-size: large;
+    width: 1297px;
+    margin-top: 3px;
+}
+.homepagetextbox{
+    font-size: x-large;
+    border: 4px solid black;
+    background: white;
+    width: 577px;
+    text-align: center;
+    float: left;
+    min-height: 86%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 10px 30px;
+}
+footer {
+    background-color: rgb(70, 70, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    border: 4px solid rgb(30, 30, 175);
+    margin: auto;
+    color: white;
+    margin-top: 40px;
+}
+/* section styles */
+section {
+    border: 3px solid grey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px; /*this is the width in between the border */
+    width: 1305px;
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(160, 160, 160);
+    width: 1305px;
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+}
+/* homepage styles */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+    width: auto;
+}
+.poster-section {
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1310px;
+    border: 5px solid rgb(120, 120, 120);
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+    height: auto;
+
+}
+.typography-section {
+    background-color: rgb(160, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    border: 5px solid rgb(120, 120, 120);
+    text-align: center;
+    padding-top: center;
+    margin-top: auto;
+}
+.typographypage-section {
+    background-color: rgb(160, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1240px;
+    margin: auto;
+    border: 5px solid rgb(120, 120, 120);
+    text-align: center;
+    padding-top: center;
+    margin-top: -5px;
+}
+.coding-section {
+    background-color: rgb(220, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    border: 5px solid rgb(120, 120, 120);
+    text-align: center;
+    padding-top: center;
+    margin-top: auto;
+}
+.ux-section {
+    background-color: rgb(160, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1305px;
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+    margin-top: 50px;
+}
+section{
+    background-color: rgb(160, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1305px;
+    margin: auto;
+    text-align: center;
+    padding-top: center;
+
+}
+.carpheader{
+    border: 4px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1297px;
+    margin: auto;
+    text-align: center;
+    padding-top: center; 
+    font-size: large;
+
+}
+.postertextbox{
+    font-size: medium;
+    border: 4px solid rgb(160, 160, 160);
+    background: rgb(220, 220, 220);
+    width: 1297px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.typographyheader{
+    border: 4px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding-top: center; 
+    font-size: large;
+}
+.typographytextbox{
+    font-size: medium;
+    border: 4px solid rgb(160, 160, 160);
+    background: rgb(220, 220, 220);
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 6px;
+
+    
+}
+.codingheader{
+    border: 4px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+}
+.codingtextbox{
+    font-size: medium;
+    border: 4px solid black;
+    background: rgb(255, 255, 255);
+    width: 775px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 8px;
+}
+ul {
+    padding-inline-start: 10px;
+    position: relative;
+    top: -2 px;
+}
+.randomtextbox{
+    font-size: medium;
+    border: 4px solid black;
+    background: white;
+    width: 700px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 35px;
+}
+.typotextbox{
+    font-size: medium;
+    border: 4px solid black;
+    background: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+.posttextbox{
+    font-size: medium;
+    border: 4px solid black;
+    background: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-right: 27px;
+    margin-left: 27px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+span{
+    color: rgb(70, 70, 255);
+}
+@keyframes example {
+    0%   {background-color: darkblue;}
+    25%  {background-color: rgb(70, 70, 255);}
+    33%  {background-color: lightblue;}
+    50%  {background-color: white;}
+    66%  {background-color: rgb(230, 120, 150);}
+    75%  {background-color: rgb(230, 90, 135);}
+    100% {background-color: rgb(230, 60, 120);}
+
+    0%   {border-color: darkblue;}
+    25%  {border-color: rgb(70, 70, 255);}
+    33%  {border-color: lightblue;}
+    50%  {border-color: white;}
+    66%  {border-color: rgb(230, 100, 170);}
+    75%  {border-color: rgb(200, 60, 135);}
+    100% {border-color: rgb(160, 60, 100);}
+}
+  /* The element to apply the animation to */
+.homepageheader {
+    animation-name: example;
+    animation-duration: 5s;
+    border: 10px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+.uxtextbox{
+    font-size: medium;
+    border: 4px solid black;
+    background: rgb(220, 220, 220);
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+.uxheader{
+    border: 4px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+}
+.ux-section{
+    background-color: rgb(220, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border: 5px solid rgb(120, 120, 120);
+    text-align: center;
+    padding-top: center;
+    margin-top: auto;
+}
+.uxpage-section {
+    background-color: rgb(160, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1300px;
+    margin: auto;
+    border: 5px solid rgb(120, 120, 120);
+    text-align: center;
+    padding-top: center;
+    margin-top: -5px;
+}
+
+.codingtextbox{
+    font-size: medium;
+    border: 4px solid rgb(120, 120, 120);
+    background: rgb(200, 200, 200);
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+
+}
+.codingheader{
+    border: 4px solid rgb(160, 60, 100);
+    background-color: rgb(230, 60, 120);
+    color: black;
+    font-family: 'Zen Dots', cursive;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding-top: center; 
+    font-size: large;
+}
+.codetextbox{
+    font-size: medium;
+    border: 4px solid black;
+    background: rgb(220, 220, 220);
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-right: 27px;
+    margin-left: 27px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
